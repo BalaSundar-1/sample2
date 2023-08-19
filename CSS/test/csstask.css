@@ -1,0 +1,52 @@
+div
+{
+	height: 300px;
+	width: 250px;
+	background-color:white;
+	
+	margin: 20px;
+	float: left;
+	border: 2px solid black;
+	border-radius:50px;
+}
+i 
+{
+	color:white;
+	background-color: blue;
+	padding: 10px 8px ;
+	font-size:30px;
+	text-align:center;
+	margin-top:20px ;
+	
+}
+p
+{
+	text-align: center;
+}
+hr
+  {
+	height:1px;
+	background-color:blue ;
+
+	margin:20px;
+	margin-top: 30px;
+}
+input
+{
+	border:1px solid black ;
+	border-radius: 50px;
+	background-color: blue;
+	height: 30px;
+	width: 90px;
+	color:white;
+
+}
+button
+{
+border:1px solid black ;
+	border-radius: 50px;
+	background-color: blue;
+	height: 30px;
+	width: 90px;
+	color:white;	
+}

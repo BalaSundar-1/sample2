@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+</head>
+<body>
+     <table cellpadding="5px" border="2px">
+    <tr><th></th><th></th><th></th></tr>
+    <tr><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td></tr>
+ </table>
+<script type="text/javascript">
+    var student=[
+{
+    name:'balu',
+    pin:503,
+    gender:'male'
+},
+{
+    name:'nani',
+    pin:526,
+    gender:'male'
+},
+{
+    name:'phani',
+    pin:508,
+    gender:'male'
+
+}
+]
+    var g=document.getElementsByTagName("td");
+    var h=document.getElementsByTagName("th");
+    var x=0;
+    for(var i in student[0]){
+        h[x].innerHTML=i;
+        x++;
+    }
+    
+    x=0;
+   for(var i=0;i<student.length;i++)
+   {
+    for(var k in student[i]){
+    g[x].innerHTML=student[i][k];
+    x++;
+  }
+   }
+   // for(var i in g){
+   //      document.write(g[i]);
+   //  }
+</script>
+</body>
+</html>

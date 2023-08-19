@@ -1,0 +1,16 @@
+ .external{
+	border: 3px dotted greenyellow;
+	background-color: rosybrown;
+}
+p1
+{
+	font-family:Goudy Old Style;
+	font size: 40px;
+}  
+body
+{
+	background-image:url('images (1).jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
